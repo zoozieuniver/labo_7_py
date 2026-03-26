@@ -15,4 +15,13 @@ def collatz(value):
             print(value[i])
         if value[i] == 1:
             break
+
+    def collatz_len(value):
+        counter=0
+        for i in value:
+            counter += 1
+        print("Кількість кроків було виконано =", counter)
+        
+    collatz_len(value)
+
 collatz(n)
